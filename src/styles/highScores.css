@@ -1,0 +1,44 @@
+.table{
+    display: grid;
+    grid-template-rows: 5rem 25rem;
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-template-areas:
+    "header1 header2"
+    "content1 content2";
+    justify-content: center;
+    
+}
+
+.tableStyle{
+    background: white;
+    border: 0.2rem solid rgb(109, 161, 239);
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+#header1{
+    grid-area: header1;
+}
+
+#header2{
+    grid-area: header2;
+}
+
+#content1{
+    grid-area: content1;
+}
+
+#content2{
+    grid-area: content2;
+}
+
+#centerFooter{
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+

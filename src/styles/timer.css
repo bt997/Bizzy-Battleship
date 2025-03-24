@@ -1,0 +1,18 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.display {
+    font-size: 2rem;
+    color: gray;
+}

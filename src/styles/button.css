@@ -1,0 +1,32 @@
+.button{
+    background-color: rgb(109, 161, 239);
+    color: white;
+    padding: 8px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    transition: 150ms;
+    border: none;
+}
+
+#currPage{
+    background-color: rgb(38, 100, 182);
+}
+
+.button:hover {
+    background-color: rgb(38, 100, 182);
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: black;
+}
+
+@media(max-width: 576px) {    
+    .button{
+        font-size: 0.75rem;
+    }
+}

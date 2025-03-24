@@ -1,0 +1,21 @@
+.board {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    gap: 4px;
+    margin: 20px auto;
+    width: max-content;
+    box-sizing: border-box;
+  }
+
+  .notClickable{
+    pointer-events: none;
+  }
+
+@media(max-width: 576px) {
+
+  .board {
+    grid-template-columns: repeat(10, 1fr);
+  }
+  
+}
