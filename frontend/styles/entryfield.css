@@ -1,0 +1,28 @@
+.entryfield{
+    color: rgb(109, 161, 239);
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    transition: 150ms;
+    border: 2px solid rgb(109, 161, 239);
+}
+
+.entryfield-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin: 8px 0;
+  }
+  
+  .entryfield-label {
+    font-size: 30px;
+    color: rgb(109, 161, 239);
+    min-width: 80px; 
+  }
+
+@media(max-width: 576px) {    
+    .button{
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 0;
+}
+
+.circle{
+    width: 13rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: rgb(109, 161, 239);
+    flex-wrap: wrap;
+    margin: 4rem;
+    color: white;
+    font-size: 1.5rem;
+    align-content: center;
+}   
+
+
+@media(max-width: 576px) {          /* for mobile size */
+
+    .container{
+        height: 40vh;
+    }
+
+    .circle{
+        width: 6rem;
+        height: 6rem;
+        font-size: 1rem;
+        margin: 0.5rem;
+
+    }
+}

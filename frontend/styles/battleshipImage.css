@@ -1,0 +1,11 @@
+#battleshipImg{
+    width: 500px;
+    height: auto;
+}
+
+@media(max-width: 576px) {          /* for mobile size */
+    #battleshipImg{
+        width: 200px;
+        height: auto;
+    }
+}

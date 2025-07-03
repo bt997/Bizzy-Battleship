@@ -1,0 +1,51 @@
+.square {
+    background-color: rgb(109, 161, 239);
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    transition: 200ms;
+    border-radius: 10%;
+    box-sizing: border-box;
+  }
+
+.filledBox{
+    font-size: 1.75rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.shipBox{
+    color: black;
+    font-size: 2rem;
+}
+
+.missBox {
+    background: rgb(229, 111, 111);
+    color: rgb(116, 18, 18);
+}
+
+.hitBox {
+    background-color: rgb(143, 233, 143);
+    color: rgb(14, 100, 14);
+}
+
+.opponentMissBox {
+    background-color: rgb(109, 161, 239);
+    color: rgb(14, 100, 14);
+}
+
+.square:hover:not(.filledBox) {
+    background-color: rgb(38, 100, 182);
+    cursor: pointer;
+}
+
+@media(max-width: 576px) {
+    .square{
+        width: 20px;
+        height: 20px;
+        font-size: 0.8rem;
+    }
+}
